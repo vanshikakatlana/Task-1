@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AscentAcademy_Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+          <h1>CALCULATOR</h1>
+          </div>
+        </div>
+        <div class="screen">
+          <form action="screen">
+            <input type="text" id="result" readonly>
+          </form>
+        </div>
+        <div class="cal-body" id="calcu">
+          <div class="btn">
+            <button class="btn-type1" onclick="dis('7')" 
+            onkeydown="myFunction(event)">7</button>
+            <button class="btn-type1" onclick="dis('8')" 
+            onkeydown="myFunction(event)">8</button>
+            <button class="btn-type1" onclick="dis('9')" 
+            onkeydown="myFunction(event)">9</button>
+            <button class="btn-type2" onclick="del()" 
+            onkeydown="myFunction(event)">DEL</button>
+            <button class="btn-type1" onclick="dis('4')" 
+            onkeydown="myFunction(event)">4</button>
+            <button class="btn-type1" onclick="dis('5')" 
+            onkeydown="myFunction(event)">5</button>
+            <button class="btn-type1" onclick="dis('6')" 
+            onkeydown="myFunction(event)">6</button>
+            <button class="btn-type1" onclick="dis('+')" 
+            onkeydown="myFunction(event)">+</button>
+            <button class="btn-type1" onclick="dis('1')" 
+            onkeydown="myFunction(event)">1</button>
+            <button class="btn-type1" onclick="dis('2')" 
+            onkeydown="myFunction(event)">2</button>
+            <button class="btn-type1" onclick="dis('3')" 
+            onkeydown="myFunction(event)">3</button>
+            <button class="btn-type1" onclick="dis('-')" 
+            onkeydown="myFunction(event)">-</button>
+            <button class="btn-type1" onclick="dis('.')" 
+            onkeydown="myFunction(event)">.</button>
+            <button class="btn-type1" onclick="dis('0')" 
+            onkeydown="myFunction(event)">0</button>
+            <button class="btn-type1" onclick="dis('/')" 
+            onkeydown="myFunction(event)">/</button>
+            <button class="btn-type1" onclick="dis('*')" 
+            onkeydown="myFunction(event)">X</button>
+            <button class="btn-type2 reset" onclick="clr()" 
+            onkeydown="myFunction(event)">RESET</button>
+            <button class="btn-type3 equal" onclick="solve()" 
+            onkeydown="myFunction(event)">=</button>
+          </div> 
+        </div>
+      </div>
+      <footer>Coded By Piyush Kumar Das</footer>
+      <script src="script.js"></script>        
+</body>
+</html>c
